@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width:1920px;
+    margin:auto;
+}
+.main{
+    background:url('../img/bg-main.svg') no-repeat;
+}
