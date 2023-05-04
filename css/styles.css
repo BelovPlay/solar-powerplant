@@ -7,5 +7,103 @@
     margin:auto;
 }
 .main{
-    background:url('../img/bg-main.svg') no-repeat;
+    background:url('../img/bg-main.png') no-repeat;
+    text-align: center;
+    padding-bottom:40px;
+    margin-bottom:160px;
 }
+.logo{
+    padding-top: 77px;
+    padding-bottom: 160px;
+}
+.main-subtitle{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.main-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    font-variant: all-small-caps;
+    color: #FFFFFF;
+}
+h2.main-subtitle{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.main-btn-sigup-consult{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background:transparent;
+    outline:none;
+    border:none;
+    display:flex;
+    align-items: center;
+    margin:auto;
+}
+.main-btn-sigup-consult:hover{
+    cursor:pointer;
+}
+.btn-signup-consult-image{
+    margin-left: 20px;
+}
+.soc-links__list-items{
+    display:flex;
+    justify-content:space-around;
+    width:200px;
+    margin:auto;
+    margin-top:180px;
+}
+/* styles for services */
+.services__content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.services__title{
+    font-family:'Noto Sans';
+    font-style:normal;
+    font-weight:700;
+    font-size:24px;
+    line-height:33px;
+    color: #868585;
+    margin-top:-50px;
+    margin-bottom:60px;
+}
+.block-service__title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom:15px;
+    margin-bottom: 15px;
+}
+.block-service__text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+    margin-right: 90px;
+    margin-bottom:50px;
+}
+/* styles for section rate */
