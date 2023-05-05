@@ -276,3 +276,45 @@ h2.main-subtitle{
     margin-left:250px;
     margin-top:25px;
 }
+/* styles for section steps */
+.steps__content{
+    display:flex;
+    width: 1300px;
+    justify-content:space-around;
+    margin:auto;
+    margin-bottom: 150px;
+}
+.steps__title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+}
+.steps__list-items{
+    margin-top:40px;
+    list-style-type:none;
+}
+.num-step{
+    margin-bottom:5px;
+    display:inline-block;
+}
+.title__step{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+}
+.describe__step{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+    margin-bottom:45px;
+}
+/* styles for section footer */
