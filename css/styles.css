@@ -213,3 +213,66 @@ h2.main-subtitle{
     background:url('../img/bg-blockquote.svg') no-repeat;
     margin-bottom: 150px;
 }
+/* styles for section clients */
+.clients__content{
+    display:flex;
+    justify-content:space-around;
+    width: 1200px;
+    margin:auto;
+    margin-bottom:150px;
+}
+.clients__title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 60px;
+}
+.clients__describe-text{
+    margin-top:100px;
+}
+.clients__describe-text-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+.clients__list-items{
+    list-style-type:none;
+    margin-left:30px;
+    margin-bottom: 75px;
+}
+.clients__item{
+    margin-bottom:15px;
+}
+.clients__btn-signup-consult{
+    border:none;
+    outline:none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    background-color:transparent;
+    margin-left:30px;
+}
+.clients__btn-signup-consult{
+    display:flex;
+    align-items: center;
+}
+.clients__btn-signup-consult:hover{
+    cursor:pointer;
+}
+.btn-signup-consult__image{
+    margin-left: 35px;
+}
+.slider-arrows__clients{
+    margin-left:250px;
+    margin-top:25px;
+}
