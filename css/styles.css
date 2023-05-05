@@ -112,6 +112,7 @@ h2.main-subtitle{
     display:flex;
     margin:auto;
     justify-content:space-around;
+    margin-bottom:100px;
 }
 .rate__title{
     font-family: 'Noto Sans';
@@ -196,4 +197,19 @@ h2.main-subtitle{
     font-size: 14px;
     line-height: 19px;
     color: #303030;
+}
+/* styles for section blockquote */
+.blockquote-cite{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.blockquote__content{
+    padding:128px 0px;
+    background:url('../img/bg-blockquote.svg') no-repeat;
+    margin-bottom: 150px;
 }
